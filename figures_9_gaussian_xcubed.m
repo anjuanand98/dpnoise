@@ -45,7 +45,7 @@ lgd.FontSize=14;
 lgd.NumColumns=2;
 xlabel('rate (in bits)','FontSize',14)
 ylabel('decoder distortion','FontSize',14)
-saveas(fdfig,'decdist_uniform_xcubed.png')
+saveas(fdfig,'decdist_gaussian_xcubed.png')
 
 
 %encoder
@@ -83,7 +83,7 @@ lgd.FontSize=14;
 lgd.NumColumns=2;
 xlabel('rate (in bits)','FontSize',14)
 ylabel('encoder distortion','FontSize',14)
-saveas(fefig,'encdist_uniform_xcubed.png')
+saveas(fefig,'encdist_gaussian_xcubed.png')
 
 
 for N=Nval
