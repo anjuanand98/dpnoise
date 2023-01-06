@@ -11,22 +11,22 @@ stle=strings(1,length(berval));
 
 ber=berval(1);
 plot(log(Nval)./log(2),decdistbern(find(ber==berval),:),'-o');
-stle(find(ber==berval))=strcat('p_{err}=',num2str(ber));
+stle(find(ber==berval))=strcat('p_{b}=',num2str(ber));
 hold on;
 
 ber=berval(2);
 plot(log(Nval)./log(2),decdistbern(find(ber==berval),:),'-*');
-stle(find(ber==berval))=strcat('p_{err}=',num2str(ber));
+stle(find(ber==berval))=strcat('p_{b}=',num2str(ber));
 hold on;
 
 ber=berval(3);
 plot(log(Nval)./log(2),decdistbern(find(ber==berval),:),'-s');
-stle(find(ber==berval))=strcat('p_{err}=',num2str(ber));
+stle(find(ber==berval))=strcat('p_{b}=',num2str(ber));
 hold on;
 
 ber=berval(4);
 plot(log(Nval)./log(2),decdistbern(find(ber==berval),:),'-^');
-stle(find(ber==berval))=strcat('p_{err}=',num2str(ber));
+stle(find(ber==berval))=strcat('p_{b}=',num2str(ber));
 % hold on;
 % 
 % ber=berval(5);
