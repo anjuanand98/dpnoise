@@ -5,6 +5,8 @@ clear all;
 load('gaussian_parameters.mat');
 load(strcat('gaussian_str_k_',num2str(kencoder),'.mat'));
 berval(4:5)=[];
+encdistbern(4:5,:)=[];
+decdistbern(4:5,:)=[];
 fdfig=figure;
 stle=strings(1,length(berval));
 
