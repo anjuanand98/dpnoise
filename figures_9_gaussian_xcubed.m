@@ -6,6 +6,8 @@ load('gaussian_parameterscubed.mat');
 load(strcat('gaussian_str_xcubed.mat'));
 
 berval(4:5)=[];
+encdistbern(4:5,:)=[];
+decdistbern(4:5,:)=[];
 fdfig=figure;
 stle=strings(1,length(berval));
 
